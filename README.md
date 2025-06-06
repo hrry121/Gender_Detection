@@ -1,33 +1,35 @@
-# Gender-and-Age-Detection
+# 👤 Gender Detection using Caffe Model
 
-## Objective
-Build a gender and age detector that can approximately guess the gender and age of a person’s face from an image or webcam feed.
-
----
-
-## About the Project
-This Python project uses Deep Learning to identify the gender of a person from a single face image or using webcam feed
-
-- **Face Detection:** Performed using a TensorFlow model (`.pb` and `.pbtxt` files).
-- **Gender Prediction:** Performed using pre-trained **Caffe** models by Tal Hassner and Gil Levi.
-
-- **Gender Prediction:** `Male` or `Female`
----
-
-## Required Python Libraries
-- OpenCV  
-  ```bash
-  pip install opencv-python
-  pip install matplotlib
+## 🎯 Objective
+Develop a deep learning-based Python application that can **detect and classify gender** (`Male` or `Female`) from a face in an image or real-time webcam feed.
 
 ---
 
-## Download the pre-trained model from here : 
+## 📌 About the Project
+This project leverages **Deep Learning** to predict the **gender of a person** using facial features.
 
-https://drive.google.com/drive/folders/16qqswNHvUCGQI4iCekXdd6T_-ePKZrzz
+- ✅ **Face Detection** is handled using a pre-trained **TensorFlow** model (`.pb` and `.pbtxt`).
+- ✅ **Gender Classification** is performed using **Caffe-based** deep learning models developed by **Tal Hassner** and **Gil Levi**.
+- ✅ Input can be either an image or a real-time webcam stream.
+
+> 🔍 Gender classification output: `Male` or `Female`
+
 ---
 
-## Expected Result
-![Figure_1](https://github.com/user-attachments/assets/5395dd0f-193e-4941-a71f-303dcb37e77a)
+## 🧠 Pre-trained Models
 
+Download the required pre-trained models from the following Google Drive link:  
+👉 [Download Gender Detection Models](https://drive.google.com/drive/folders/16qqswNHvUCGQI4iCekXdd6T_-ePKZrzz)
+
+Place the downloaded files in the project directory before running the script.
+
+---
+
+## 💻 Required Python Libraries
+
+Install the required libraries using pip:
+
+```bash
+pip install opencv-python
+pip install matplotlib
 
