@@ -22,6 +22,11 @@ This Python project uses Deep Learning to identify the gender of a person from a
 
 ---
 
+## Download the pre-trained model from here : 
+
+https://drive.google.com/drive/folders/16qqswNHvUCGQI4iCekXdd6T_-ePKZrzz
+---
+
 ## Expected Result
 ![Figure_1](https://github.com/user-attachments/assets/5395dd0f-193e-4941-a71f-303dcb37e77a)
 
