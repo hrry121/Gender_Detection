@@ -19,3 +19,10 @@ This Python project uses Deep Learning to identify the gender of a person from a
   ```bash
   pip install opencv-python
   pip install matplotlib
+
+---
+
+## Expected Result
+![Figure_1](https://github.com/user-attachments/assets/5395dd0f-193e-4941-a71f-303dcb37e77a)
+
+
